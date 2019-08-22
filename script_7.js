@@ -1,5 +1,5 @@
 console.log("Bonjour,veuiller saisir un nom si vous voulez jouer avec bot");
-// name = prompt('Bonjour,veuiller saisir un nom si vous voulez jouer avec bot');
+name = prompt('Bonjour,veuiller saisir un nom si vous voulez jouer avec bot');
 ask = prompt('Bienvenue dans notre espace ' + name + " ,on peut donc commencer,pose moi une question et je te reponderai");
 function giving_answer(question) {
 	if (question[question.length-1] === "?"){
