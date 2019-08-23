@@ -24,9 +24,6 @@ function giving_answer(question) {
 						 var give = 1;
 						break
 					}
-					// else{
-					// 	var give = 0;
-					// }
 				}
 				if (give === 1) {
 					console.log("on s' fait une partie soum-soum ?");
